@@ -1,4 +1,4 @@
-FROM eclipse-termurin:17-jdk-alpine
+FROM openjdk:17
 VOLUME /tmp
 EXPOSE 8081
 COPY target/*.jar spring-boot-docker.jar
